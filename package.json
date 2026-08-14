@@ -1,0 +1,16 @@
+{
+  "name": "ghl-claude-middleware",
+  "version": "1.0.0",
+  "description": "Middleware connecting GoHighLevel webhooks to Claude for lead triage and WhatsApp alerts",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5"
+  }
+}
